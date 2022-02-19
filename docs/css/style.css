@@ -152,6 +152,15 @@ body {
     color: var(--accent-color);
 }
 
+.icon {
+    content: "";
+    display:inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
 .info-list {
     display: flex;
 }
