@@ -106,6 +106,7 @@ body {
     line-height: 1.19;
     letter-spacing: 0.03em;
     font-size: 26px;
+    text-decoration: none;
 }
 
 .logo-header {
@@ -540,21 +541,106 @@ padding-left: 0;
   display: block;
   width: 106px;
   height: 60px;
-  fill: var(--primary-white-color);
+  fill: var(--secondary-bg-color);
   fill: #afb1b8;
 }
 
 /*footer*/
-.footer {
-    background-color: var(--footer-bg-color);
-}
-
-.footer{
+footer {
+    background-color: #2f303a;
     padding-top: 60px;
     padding-bottom: 60px;
-}
+  }
+  
+  .footer-box {
+    display: flex;
+    margin-left: 215px;
 
-
+  }
+  
+  .footer-logo {
+    margin-bottom: 20px;
+    display: inline-block;
+    color: var(--secondary-text-color);
+  }
+  .address > p,
+  .address > a {
+    color: var(--primary-text-color);
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1, 71;
+    letter-spacing: 0.03em;
+    font-style: normal;
+    display: block;
+  }
+  
+  .address > p {
+    margin-bottom: 9px;
+    color: var(--secondary-text-color);
+  }
+  
+  .mail {
+    margin-bottom: 9px;
+  }
+  
+  .address > a:hover,
+  .address > a:focus {
+    color: var(--accent-color);
+  }
+  
+  .footer-list-box {
+    margin-left: 70px;
+    padding-top: 12px;
+  }
+  
+  .footer-title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--secondary-bg-color);
+    margin-bottom: 20px;
+  }
+  
+  .footer-list {
+    display: flex;
+    padding-left: 0;
+  }
+  
+  .footer-item {
+    margin-right: 10px;
+  }
+  
+  .footer-item:nth-child(4n) {
+    margin-right: 0px;
+  }
+  
+  .footer-social-link {
+    display: block;
+    width: 44px;
+    height: 44px;
+    border-radius: 90px;
+    padding: 12px;
+    background-color:var(--footer-bg-color);
+  }
+  
+  .footer-social-link:nth-child(4n) {
+    margin-right: 0px;
+  }
+  
+  .footer-social-link:focus,
+  .footer-social-link:hover {
+    background-color: var(--accent-color);
+  }
+  
+  .footer-social-network {
+    display: block;
+    width: 20px;
+    height: 20px;
+    fill: var(--secondary-bg-color);
+  }
+  
 /* filter */
 .main-project {
 }
