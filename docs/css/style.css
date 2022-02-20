@@ -154,7 +154,10 @@ text-decoration: none;
     margin-right: 50px;
     align-items: center;
   }
-
+.info-item{
+    display: inline-block;
+    vertical-align: middle;
+}
 .info-list .info-item {
     display: flex;
     margin-right: 50px;
@@ -230,16 +233,15 @@ text-decoration: none;
 .info-link:focus {
     color: var(--accent-color);
 }
-.icon.tel {
+.icon-tel {
     width:10px; 
     height:16px;
     margin-right: 10px;
   }
-  .icon.mail {
+  .icon-mail {
     width:16px;
     height:12px;
     margin-right: 10px;
-    vertical-align: middle;
   }
   /* hero */
 
