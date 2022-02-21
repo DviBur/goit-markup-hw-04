@@ -64,7 +64,6 @@ body {
 }
 .section {
     padding-top: 94px;
-    padding-bottom: 94px;
 }
 .conteiner {
     width: 1200px;
@@ -324,19 +323,22 @@ text-decoration: none;
 /* advantage */
 
 .box-icons {
+   position: relative;
     width: 270px;
     height: 120px;
     background-color: var(--secondary-bg-color);
     text-align: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
     margin-bottom: 30px;
     border-radius: 4px;
 }
   
 .skill-icons {
-    width: 70px;
-    height: 70px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 70px;
+  height: 70px;
 }
   
 .advantage-list {
@@ -492,7 +494,7 @@ padding-left: 0;
     display: block;
     width: 20px;
     height: 20px;
-    fill: #afb1b8;
+    fill: var(--logo-white-color);
 }
  /* Наши постоянные клиенты  */
 .section-title {
@@ -525,10 +527,10 @@ padding-left: 0;
 
 .client-link {
   display: block;
+  position: relative;
   width: 170px;
-  height: 106px;
+  height: 92px;
   border: 1px solid #afb1b8;
-  padding: 16px 32px;
 }
 
 .client-link:hover,
@@ -543,6 +545,10 @@ padding-left: 0;
 
 .client-icon {
   display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
   width: 106px;
   height: 60px;
   fill: var(--secondary-bg-color);
@@ -714,7 +720,15 @@ footer {
     outline: 1px solid #eeeeee;
     margin: 15px;
     flex-basis: calc((100% - 90px) / 3);
-
+    transition: box-shadow .3s;
+    transform: translateY(-0.25em);
+}
+.project-item:focus,
+.project-item:hover {
+  box-shadow:
+  0 1px 4px rgba(0, 0, 0, 0.16),
+  0 0 4px  rgba(0, 0, 0, 0.06),
+  0 0 1px rgba(0, 0, 0, 0.12);
 }
 
 .project-name {
