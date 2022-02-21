@@ -592,11 +592,7 @@ footer {
   .mail {
     margin-bottom: 9px;
   }
-  
-  .address > a:hover,
-  .address > a:focus {
-    color: var(--accent-color);
-  }
+ 
   
   .footer-list-box {
     margin-left: 70px;
