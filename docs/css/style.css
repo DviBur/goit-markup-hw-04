@@ -21,6 +21,7 @@
     --logo-blask-color: #212121;
     --hover-button-color: #188CE8;
     --accent-color: #2196f3;
+    --footer-link-bg: rgba(255, 255, 255, 0.1);
 }
 
 /*main*/
@@ -620,12 +621,14 @@ footer {
   }
   
   .footer-social-link {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 44px;
     height: 44px;
-    border-radius: 90px;
+    border-radius: 50%;
     padding: 12px;
-    background-color:var(--footer-bg-color);
+    background-color:var(--footer-link-bg);
   }
   
   .footer-social-link:nth-child(4n) {
@@ -645,8 +648,7 @@ footer {
   }
   
 /* filter */
-.main-project {
-}
+
 .filter-section {
     padding-bottom: 94px;
     padding-top: 94px;
