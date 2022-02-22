@@ -492,15 +492,11 @@ padding-left: 0;
   border-radius: 50%;
   padding: 12px;
 }
-}
-.social-link:hover .social-network,
-.social-link:focus .social-network {
-    background-color: var(--accent-color);
-}
-  
+
 .social-link:focus .social-network,
 .social-link:hover .social-network {
-    fill: var(--secondary-text-color);
+    fill: var(--secondary-text-color); 
+    background-color: var(--accent-color);
 }
   
 .social-network {
