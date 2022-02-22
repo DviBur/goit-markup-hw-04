@@ -506,11 +506,6 @@ padding-left: 0;
     width: 20px;
     height: 20px;
     fill: var(--social-network-fill);
-    position: absolute;
-    left: 27.27%;
-    right: 27.27%;
-    top: 27.27%;
-    bottom: 27.27%;
 }
  /* Наши постоянные клиенты  */
 .section-title {
