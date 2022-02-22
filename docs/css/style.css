@@ -75,7 +75,8 @@ padding-bottom: 94px;
 .conteiner {
     width: 1200px;
     padding: 0 15px;
-    margin: 0;
+    margin: auto;
+  
 }
 
 .visually-hidden {
@@ -487,7 +488,8 @@ padding-left: 0;
     width: 44px;
     height: 44px;
     border-radius: 90px;
-    padding: 12px;
+    margin: auto;
+  
 }
 .social-link:focus,
 .social-link:hover {
