@@ -22,6 +22,9 @@
     --hover-button-color: #188CE8;
     --accent-color: #2196f3;
     --footer-link-bg: rgba(255, 255, 255, 0.1);
+    --social-network-fill: #AFB1B8;
+    --footer-address-color:rgba(255, 255, 255, 0.6);
+
 }
 
 /*main*/
@@ -64,6 +67,10 @@ body {
 }
 .section {
     padding-top: 94px;
+    padding-bottom: 94px;
+}
+.section-whatwedo {
+padding-bottom: 94px;
 }
 .conteiner {
     width: 1200px;
@@ -422,6 +429,8 @@ padding-left: 0;
 .team-box {
    padding-top: 30px;
    padding-bottom: 30px;
+   background-color: var(--logo-white-color);
+   border-radius: 2px ;
 }
  
 .team-item {
@@ -494,7 +503,8 @@ padding-left: 0;
     display: block;
     width: 20px;
     height: 20px;
-    fill: var(--logo-white-color);
+    fill: var(--social-network-fill);
+    align-items: center;
 }
  /* Наши постоянные клиенты  */
 .section-title {
@@ -575,10 +585,10 @@ footer {
   }
   .address > p,
   .address > a {
-    color: var(--primary-text-color);
+    color: var(--footer-address-color);
     text-decoration: none;
     font-size: 14px;
-    line-height: 1, 71;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     font-style: normal;
     display: block;
