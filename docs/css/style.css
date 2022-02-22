@@ -493,8 +493,8 @@ padding-left: 0;
   padding: 12px;
 }
 }
-.social-link:focus,
-.social-link:hover {
+.social-link:hover .social-network,
+.social-link:focus .social-network {
     background-color: var(--accent-color);
 }
   
